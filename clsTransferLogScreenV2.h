@@ -1,5 +1,4 @@
 #pragma once
-
 #include <iostream>
 #include "clsScreen.h"
 #include <iomanip>
@@ -7,7 +6,7 @@
 #include "clsBankClient.h"
 
 
-class clsTransferLogScreen :protected clsScreen
+class clsTransferLogScreenV2 :protected clsScreen
 {
 
 private:
@@ -70,4 +69,5 @@ public:
     }
 
 };
+
 

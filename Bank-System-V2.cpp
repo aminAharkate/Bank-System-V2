@@ -4,15 +4,11 @@
 int main()
 
 {
+
     while (true)
     {
-        if (!clsLoginScreen::ShowLoginScreen())
-        {
-            break;
-        }
-
+        clsLoginScreen::ShowLoginScreen();
     }
 
     return 0;
 }
-
